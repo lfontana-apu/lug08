@@ -31,7 +31,15 @@ public class Letter {
 				"FF        ",
 				
 		};
-		// Ciclo per stampare righe
+		// Ciclo per stampare iniziale: nome "L"
+		for (int i = 0; i < 10; i++) {
+			System.out.println(letteraL[i] + " ");
+		}
+		
+		// Mettere una riga vuota
+		System.out.println();
+		
+		// Ciclo per stampare iniziali: nome + cognome "L + F"
 		for (int i = 0; i < 10; i++) {
 			System.out.println(letteraL[i] + " " + letteraF[i]);
 		}
