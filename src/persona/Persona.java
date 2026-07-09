@@ -13,3 +13,4 @@ public class Persona {
 		System.out.println("Corrispondente a: " + secondi + " secondi");
 	}
 }
+

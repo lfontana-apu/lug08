@@ -9,7 +9,7 @@ public class ClienteTest {
 
 				mioCliente.ID = 111;
 				mioCliente.isNuovo = true; // true = Nuovo
-				mioCliente.importoTotale = 49.99;
+				mioCliente.importoTotale = 49.99; // euro piu cent
 				
 				mioCliente.displayInfoCliente();
 				
@@ -22,5 +22,3 @@ public class ClienteTest {
 			}
 
 	}
-
-
